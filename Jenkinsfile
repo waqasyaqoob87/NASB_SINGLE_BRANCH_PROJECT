@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DACPAC_PATH = "${WORKSPACE}\\bin\\Release\\NASB_SINGLE_BRANCH_PROJ.dacpac"
+        DACPAC_PATH = "${WORKSPACE}\\bin\\Release\\SQL_SINGLE_BRANCH_PROJ.dacpac"
         GIT_REPO_URL = 'https://github.com/waqasyaqoob87/NASB_SINGLE_BRANCH_PROJECT.git' // Updated repository link
         MSBUILD_PATH = "\"${MSBuild}\""
         SQLPACKAGE_PATH = "\"${SQLPackage}\""
